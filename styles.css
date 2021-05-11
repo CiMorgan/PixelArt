@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: Monoton;
+    color: blue;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+#sizePicker {
+    position: flexible;
+    display: float;
+    padding: 5px 20px 5px 20px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+input[type=number] {
+    width: 6em;
+}
